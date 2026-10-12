@@ -1,0 +1,26 @@
+# The classic 9-vertex example from Cormen et al., "Introduction to Algorithms" (Fig. 23.4).
+# Known minimum spanning tree weight: 37.
+TITLE Textbook example (CLRS Fig. 23.4), MST = 37
+NODE a 0.06 0.50
+NODE b 0.25 0.82
+NODE c 0.50 0.82
+NODE d 0.75 0.82
+NODE e 0.94 0.50
+NODE f 0.75 0.18
+NODE g 0.50 0.18
+NODE h 0.25 0.18
+NODE i 0.38 0.50
+EDGE a b 4
+EDGE a h 8
+EDGE b c 8
+EDGE b h 11
+EDGE c d 7
+EDGE c f 4
+EDGE c i 2
+EDGE d e 9
+EDGE d f 14
+EDGE e f 10
+EDGE f g 2
+EDGE g h 1
+EDGE g i 6
+EDGE h i 7

@@ -1,0 +1,6 @@
+kruskal_cli
+kruskal_viz
+test_kruskal
+*.ppm
+*.o
+.vs/

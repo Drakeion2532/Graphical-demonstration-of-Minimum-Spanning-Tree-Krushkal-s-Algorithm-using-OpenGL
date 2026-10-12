@@ -1,0 +1,27 @@
+India backbone: 14 cities, cable length in km: 14 nodes, 24 edges
+
+step  edge (sorted by weight)   weight    decision              total     trees
+1     Mumbai - Pune             120       ACCEPT                120       13
+2     Jaipur - Delhi            235       ACCEPT                355       12
+3     Nagpur - Bhopal           291       ACCEPT                646       11
+4     Bengaluru - Chennai       291       ACCEPT                937       10
+5     Pune - Goa                337       ACCEPT                1274      9
+6     Bengaluru - Kochi         367       ACCEPT                1641      8
+7     Delhi - Lucknow           417       ACCEPT                2058      7
+8     Hyderabad - Nagpur        423       ACCEPT                2481      6
+9     Bhopal - Jaipur           437       ACCEPT                2918      5
+10    Mumbai - Ahmedabad        439       ACCEPT                3357      4
+11    Goa - Bengaluru           493       ACCEPT                3850      3
+12    Ahmedabad - Bhopal        496       ACCEPT                4346      2
+13    Bengaluru - Hyderabad     501       reject (cycle)        4346      2
+14    Pune - Hyderabad          506       reject (cycle)        4346      2
+15    Chennai - Hyderabad       516       reject (cycle)        4346      2
+16    Bhopal - Lucknow          535       reject (cycle)        4346      2
+17    Ahmedabad - Jaipur        541       reject (cycle)        4346      2
+18    Chennai - Kochi           559       reject (cycle)        4346      2
+19    Bhopal - Delhi            595       reject (cycle)        4346      2
+20    Pune - Nagpur             620       reject (cycle)        4346      2
+21    Mumbai - Nagpur           688       reject (cycle)        4346      2
+22    Lucknow - Kolkata         887       ACCEPT                5233      1
+
+Minimum spanning tree weight = 5233 using 13 of 24 edges

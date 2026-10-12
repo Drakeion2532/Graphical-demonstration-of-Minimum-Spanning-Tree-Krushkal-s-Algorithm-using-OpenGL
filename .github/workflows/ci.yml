@@ -1,0 +1,12 @@
+name: build-and-test
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y freeglut3-dev xvfb
+      - run: make all
+      - run: make test
+      - run: ./kruskal_cli data/clrs_example.txt | tail -1 | grep "weight = 37"
+      - run: xvfb-run -a ./kruskal_viz data/india_fibre_network.txt --screenshot frame.ppm --step 13 && test -s frame.ppm

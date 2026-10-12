@@ -1,0 +1,43 @@
+# Real-world use case: the cheapest fibre-optic / power backbone that connects 14 Indian cities.
+# Candidate links follow major road/rail corridors; weight = great-circle distance in km,
+# computed from the coordinates below ("auto"). The MST is the minimum total cable length
+# that still connects every city.
+TITLE India backbone: 14 cities, cable length in km
+LATLON Delhi 28.61 77.21
+LATLON Jaipur 26.91 75.79
+LATLON Lucknow 26.85 80.95
+LATLON Ahmedabad 23.02 72.57
+LATLON Bhopal 23.26 77.41
+LATLON Kolkata 22.57 88.36
+LATLON Nagpur 21.15 79.09
+LATLON Mumbai 19.08 72.88
+LATLON Pune 18.52 73.86
+LATLON Hyderabad 17.39 78.49
+LATLON Goa 15.49 73.83
+LATLON Chennai 13.08 80.27
+LATLON Bengaluru 12.97 77.59
+LATLON Kochi 9.93 76.27
+EDGE Mumbai Pune auto
+EDGE Mumbai Ahmedabad auto
+EDGE Mumbai Nagpur auto
+EDGE Pune Goa auto
+EDGE Pune Hyderabad auto
+EDGE Pune Nagpur auto
+EDGE Goa Bengaluru auto
+EDGE Bengaluru Kochi auto
+EDGE Bengaluru Chennai auto
+EDGE Bengaluru Hyderabad auto
+EDGE Chennai Hyderabad auto
+EDGE Chennai Kochi auto
+EDGE Hyderabad Nagpur auto
+EDGE Nagpur Bhopal auto
+EDGE Nagpur Kolkata auto
+EDGE Chennai Kolkata auto
+EDGE Ahmedabad Jaipur auto
+EDGE Ahmedabad Bhopal auto
+EDGE Bhopal Jaipur auto
+EDGE Bhopal Delhi auto
+EDGE Jaipur Delhi auto
+EDGE Delhi Lucknow auto
+EDGE Lucknow Kolkata auto
+EDGE Bhopal Lucknow auto
