@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use or adapt this work, please credit it as below and keep the copyright notice."
+title: "Kruskal's Minimum Spanning Tree, visualised in OpenGL"
+type: software
+authors:
+  - family-names: Punde
+    given-names: Shubhan
+    email: shubhanpunde@gmail.com
+repository-code: "https://github.com/Drakeion2532/Graphical-demonstration-of-Minimum-Spanning-Tree-Krushkal-s-Algorithm-using-OpenGL"
+license: MIT
+date-released: "2026-11-03"
+identifiers:
+  - type: other
+    value: "sp2532-c0edc068a28e"
+    description: "Project identifier"

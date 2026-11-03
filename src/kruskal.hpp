@@ -1,3 +1,4 @@
+// Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/Graphical-demonstration-of-Minimum-Spanning-Tree-Krushkal-s-Algorithm-using-OpenGL · MIT licence · sp2532-c0edc068a28e
 // kruskal.hpp — graph model, union-find and a step-by-step Kruskal's algorithm.
 // No OpenGL in here: the algorithm is tested and reused by the CLI and the viewer.
 #pragma once
