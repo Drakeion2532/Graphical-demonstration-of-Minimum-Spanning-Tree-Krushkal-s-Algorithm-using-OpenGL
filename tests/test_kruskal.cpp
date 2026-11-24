@@ -1,4 +1,4 @@
-// Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/Graphical-demonstration-of-Minimum-Spanning-Tree-Krushkal-s-Algorithm-using-OpenGL · MIT licence · sp2532-c0edc068a28e
+// Copyright (c) 2026 Shubhan Punde · MIT licence
 #include <cassert>
 #include <cmath>
 #include <iostream>

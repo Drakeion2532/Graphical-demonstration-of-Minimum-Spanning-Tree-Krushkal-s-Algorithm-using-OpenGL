@@ -9,7 +9,3 @@ authors:
 repository-code: "https://github.com/Drakeion2532/Graphical-demonstration-of-Minimum-Spanning-Tree-Krushkal-s-Algorithm-using-OpenGL"
 license: MIT
 date-released: "2026-11-03"
-identifiers:
-  - type: other
-    value: "sp2532-c0edc068a28e"
-    description: "Project identifier"
