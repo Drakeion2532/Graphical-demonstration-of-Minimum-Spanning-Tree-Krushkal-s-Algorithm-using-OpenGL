@@ -96,9 +96,15 @@ docs/                  GIFs, screenshots, step logs, original report
 legacy/Source.cpp      the original 2023 version, kept for comparison
 ```
 
+## Limits
+
+* The fibre-backbone example uses straight-line (great-circle) distances, not real road or rail routes, terrain or cost per km.
+* The animation is built for small and medium graphs; very large graphs are better run with the no-graphics CLI.
+* Only Kruskal's algorithm is animated; Prim's algorithm is used in the tests to cross-check results, not shown on screen.
+
 ## How this was built
 
-I designed the detection logic, threat model and evaluation, and used AI pair-programming (Claude Code) for implementation. Every number in this README was re-run and checked, and the test suite reproduces the key results.
+I designed the algorithms, data structures and test cases, and used AI pair-programming (Claude Code) for implementation. Every result in this README was re-run and checked, and `make test` reproduces it.
 
 ## Licence
 
